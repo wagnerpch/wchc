@@ -25,7 +25,10 @@ body{
 }
 .bg-top{
     display: inline-block;
-    background: url("../img/bg-1280.jpg") no-repeat center;
+    background-image: url("../img/bg-1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .row{
     margin: 0px;
@@ -50,4 +53,17 @@ body{
 .aviso{
     background-color: var(--color1);
     color: var(--color5);
+}
+.btn-curriculo{
+    background-color: var(--color5);
+    color: var(--color1);
+    border: 0px;
+    font-weight: 500;
+    padding: 15px 0px;
+    width: 50vw;
+}
+@media screen and (min-width: 769px) {
+    .btn-curriculo{
+        width: 20vw;
+    }
 }
