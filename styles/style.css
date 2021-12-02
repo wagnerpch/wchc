@@ -27,6 +27,8 @@ body{
 .row{
     margin: 0px;
 }
+
+/*Header*/
 #logo-header{
     color: var(--color1);
     font-size: 1.5rem;
@@ -37,6 +39,8 @@ body{
 .navbar-light .navbar-brand {
     color: var(--color1);
 }
+
+/*Main*/
 .bg-top{
     display: inline-block;
     background-image: url("../img/bg-1280.jpg");
@@ -66,6 +70,28 @@ body{
 .text-autor{
     font-size: 1rem;
 }
+
+
+.apresentacao{
+    background-color: var(--color1);
+}
+
+#card-nome{
+    background-color: var(--color5);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.title-projetos{
+    font-family: Droid Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/*Footer*/
 .rodape{
     background-color: var(--color1);
 }
