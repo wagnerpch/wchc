@@ -27,6 +27,13 @@ body{
 .row{
     margin: 0px;
 }
+#logo-header{
+    color: var(--color1);
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    text-decoration: none;
+}
 .navbar-light .navbar-brand {
     color: var(--color1);
 }
@@ -64,6 +71,17 @@ body{
 }
 #logo-rodape{
     color: var(--color6);
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.contato-links{
+    color: var(--color6);
+    font-size: 1rem;
+    text-decoration: none;
+}
+.contato-links:hover{
+    color: var(--color2);
 }
 .btn-curriculo{
     background-color: var(--color5);
@@ -72,6 +90,10 @@ body{
     font-weight: 500;
     padding: 15px 0px;
     width: 50vw;
+}
+.btn-curriculo:hover{
+    background-color: var(--color2);
+    color: var(--color1);
 }
 @media screen and (min-width: 769px) {
     .btn-curriculo{
