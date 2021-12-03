@@ -32,8 +32,6 @@ body{
 #logo-header{
     color: var(--color1);
     font-size: 1.5rem;
-    padding-top: 3rem;
-    padding-bottom: 1.5rem;
     text-decoration: none;
 }
 .navbar-light .navbar-brand {
@@ -75,14 +73,29 @@ body{
 .apresentacao{
     background-color: var(--color1);
 }
-
+.col-nome{
+    margin-top: 130px;
+}
+#foto-perfil{
+    margin-top: -100px;
+}
 #card-nome{
     background-color: var(--color5);
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
 }
-
+.col-botao{
+    margin-top:0px;
+}
+.botao{
+    background-color: var(--color5);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    padding: 21px 0px;
+}
 
 .title-projetos{
     font-family: Droid Sans;
@@ -134,5 +147,11 @@ body{
     }
     .nav-link{
         padding: 0;
+    }
+    .col-botao{
+        margin-top: 130px;
+    }
+    .botao{
+        width: 100%;
     }
 }
