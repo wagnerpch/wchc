@@ -68,7 +68,9 @@ body{
 .text-autor{
     font-size: 1rem;
 }
-
+.projeto{
+    width: 100%;
+}
 
 .apresentacao{
     background-color: var(--color1);
@@ -135,6 +137,9 @@ body{
     color: var(--color1);
 }
 @media screen and (min-width: 769px) {
+    #logo-header{
+        margin-left: 80px;
+    }
     .btn-curriculo{
         width: 10vw;
     }
