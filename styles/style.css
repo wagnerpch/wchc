@@ -13,6 +13,7 @@
     --color5: #F9FFFD;
     --color6: #F9FFFDD6;
     --color7: #0f384b75;
+    --bs-body-font-family: Droid Sans;
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -37,16 +38,29 @@ body{
 .navbar-light .navbar-brand {
     color: var(--color1);
 }
+.texto-logo{
+    font-size: 1rem;
+}
 
 /*Main*/
+h1{
+    font-size: 2.5rem;
+}
 .bg-top{
     display: inline-block;
-    background-image: url("../img/bg-1280.jpg");
+    background-image: url("../tecnologia/img/bg-1280.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.bg-top, .row-top{
+.bg-top-site-juridico{
+    display: inline-block;
+    background-image: url("../direito/img/bg-top-site-juridico.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-top, .row-top, .bg-top-site-juridico{
     height: 35vh;
 }
 .aviso{
@@ -54,10 +68,14 @@ body{
     color: var(--color5);
     height: 55vh;
 }
+.aviso-index{
+    background-color: var(--color1);
+    color: var(--color5);
+}
 .overlay-top{
     background-color: var(--color6);
 }
-.text-top, .text-autor{
+.text-top, .text-autor, .text-autor-site-juridico{
     color: var(--color1);
     margin: auto;
     text-align: center;
@@ -67,6 +85,9 @@ body{
 }
 .text-autor{
     font-size: 1rem;
+}
+.text-autor-site-juridico{
+    width: 100%;
 }
 .projeto{
     width: 100%;
@@ -136,6 +157,10 @@ body{
     background-color: var(--color2);
     color: var(--color1);
 }
+.duvida{
+    color: var(--color5);
+    font-size: 1.4rem;
+}
 @media screen and (min-width: 769px) {
     #logo-header{
         margin-left: 80px;
@@ -143,7 +168,10 @@ body{
     .btn-curriculo{
         width: 10vw;
     }
-    .projetos{
+    .apresentacao-nav{
+        border-left: 1px solid var(--color7);
+    }
+    .projetos-nav{
         border-left: 1px solid var(--color7);
         border-right: 1px solid var(--color7);
     }
