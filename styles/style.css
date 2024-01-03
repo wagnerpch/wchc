@@ -40,7 +40,6 @@ body{
 
 /*Main*/
 .bg-top{
-    display: inline-block;
     background-image: url("../img/bg-1280.webp");
     background-position: center;
     background-repeat: no-repeat;
